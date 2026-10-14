@@ -1,0 +1,22 @@
+{
+  "name": "World Vision Consultancy",
+  "short_name": "World Vision",
+  "description": "Global Worker Recruiter & Visa Agency — ওয়ার্ল্ড ভিশন কনসালটেন্সী",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e9eefb",
+  "theme_color": "#dbe7ff",
+  "categories": ["travel", "business", "productivity"],
+  "icons": [
+    { "src": "/pwa-icon/192", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-icon/512", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-icon/512?maskable=1", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "My Applications", "url": "/?tab=applications" },
+    { "name": "Start Application", "url": "/?tab=countries" }
+  ]
+}
